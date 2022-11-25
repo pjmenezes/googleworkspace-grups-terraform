@@ -60,6 +60,10 @@ Após estas configurações o terraform irá criar os recursos no Google Workspa
 Para testar faça o seguinte:
 
 
+    
     terraform plan
     terraform apply
+    
+ Por fim, você pode desfazer, com o seguinte seguinte:
+ 
     terraform destroy
