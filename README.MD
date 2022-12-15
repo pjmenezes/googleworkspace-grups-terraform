@@ -32,20 +32,18 @@ https://console.cloud.google.com/iam-admin/serviceaccounts
 
 https://admin.google.com/ac/accountsettings
 
-Abaixo segue a imagem onde consegue visualizar o customer ID.
-
 
 2. Na opção credentials informar o nome da chave json gerada da conta de serviço.
 
 3. Na opção impersonated_user_email informar o email do usuário administrador do cloud identity ou admin console.
 
-* Adcionar a conta de serviço como domain delegate no painel do admin console.
+* Adicionar a conta de serviço como domain delegate no painel do admin console.
 
 https://admin.google.com/ac/owl
 
 
 
-As informações de client id encontram-se na chave json da sua conta de serviço.
+As informações de client id encontram-se na chave ``json`` da sua conta de serviço.
 
 Será necessário também informar os escopos de acesso as apis do admin sdk.
 Para criação de usuários e grupos os escopos necessários são:
